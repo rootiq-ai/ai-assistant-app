@@ -8,18 +8,18 @@
 
 ![MCP Assistant Screenshot](src/img/screenshot-sidebar.png)
 
-## ✨ Features
+## Features
 
-- 🤖 **Universal MCP Client** - Connect to any MCP server
-- 🚀 **SSE Streaming** - ChatGPT-like real-time response streaming
-- 📊 **Inline Charts** - Visualizations rendered directly in chat
-- 🔵 **Beautiful Dark Theme** - Matches Grafana's aesthetics
-- 💬 **Floating Sidebar** - Accessible on every Grafana page
-- ⌨️ **Keyboard Shortcuts** - Quick access with Ctrl+B
-- 🗑️ **Clear Chat** - One-click conversation reset
-- ⚙️ **Easy Configuration** - Simple MCP server URL setup
+- **Universal MCP Client** - Connect to any MCP server
+- **SSE Streaming** - ChatGPT-like real-time response streaming
+- **Inline Charts** - Visualizations rendered directly in chat
+- **Beautiful Dark Theme** - Matches Grafana's aesthetics
+- **Floating Sidebar** - Accessible on every Grafana page
+- **Keyboard Shortcuts** - Quick access with Ctrl+B
+- **Clear Chat** - One-click conversation reset
+- **Easy Configuration** - Simple MCP server URL setup
 
-## 📦 Installation
+## Installation
 
 ### From Grafana CLI (Coming Soon)
 
@@ -53,7 +53,7 @@ grafana-cli plugins install mcp-assistant-app
    - Search for "MCP Assistant"
    - Click **Enable**
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Start your MCP server**:
    ```bash
@@ -68,7 +68,7 @@ grafana-cli plugins install mcp-assistant-app
 
 4. **Ask questions** in natural language!
 
-## ⚙️ Configuration
+## Configuration
 
 Click the **⚙️ Settings** button in the sidebar header:
 
@@ -76,7 +76,7 @@ Click the **⚙️ Settings** button in the sidebar header:
 |---------|-------------|---------|
 | MCP Server URL | URL of your MCP server | `http://localhost:3001` |
 
-## 🔌 MCP Server Requirements
+## MCP Server Requirements
 
 Your MCP server should implement these endpoints:
 
@@ -104,7 +104,7 @@ data: {"done": true}
 }
 ```
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
@@ -112,7 +112,7 @@ data: {"done": true}
 | `Enter` | Send message |
 | `Shift + Enter` | New line in input |
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 
@@ -157,7 +157,7 @@ mcp-assistant-app/
 └── LICENSE
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Sidebar not appearing
 
@@ -187,7 +187,7 @@ mcp-assistant-app/
 2. Verify SSE response format matches expected structure
 3. Check browser Network tab for connection issues
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -201,20 +201,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Kamal Singh Bisht**
 
 - GitHub: [@kamalsinghbisht](https://github.com/kamalsinghbisht)
 - LinkedIn: [Kamal Singh Bisht](https://linkedin.com/in/kamalsinghbisht)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Grafana](https://grafana.com) - Amazing observability platform
 - [Model Context Protocol](https://modelcontextprotocol.io) - MCP specification
 - [Anthropic](https://anthropic.com) - Claude AI
 
-## 📊 Related Projects
+## Related Projects
 
 - [GenAI Observability Splunk App](https://splunkbase.splunk.com) - Splunk version
 - [genai-telemetry SDK](https://pypi.org/project/genai-telemetry/) - Python SDK for GenAI telemetry
