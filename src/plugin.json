@@ -1,0 +1,73 @@
+{
+  "type": "app",
+  "name": "MCP Assistant",
+  "id": "mcp-assistant-app",
+  "preload": true,
+  "info": {
+    "description": "Universal AI chatbot sidebar for Grafana that connects to any MCP (Model Context Protocol) server. Features real-time SSE streaming, inline charts, and a beautiful dark theme.",
+    "author": {
+      "name": "Kamal Singh Bisht",
+      "url": "https://github.com/kamalsinghbisht"
+    },
+    "keywords": [
+      "mcp",
+      "model-context-protocol",
+      "chatbot",
+      "ai",
+      "assistant",
+      "llm",
+      "observability",
+      "sse",
+      "streaming",
+      "sidebar"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kamalsinghbisht/mcp-assistant-app"
+      },
+      {
+        "name": "Documentation",
+        "url": "https://github.com/kamalsinghbisht/mcp-assistant-app#readme"
+      },
+      {
+        "name": "Report Issues",
+        "url": "https://github.com/kamalsinghbisht/mcp-assistant-app/issues"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "Sidebar Chat",
+        "path": "img/screenshot-sidebar.png"
+      },
+      {
+        "name": "SSE Streaming",
+        "path": "img/screenshot-streaming.png"
+      },
+      {
+        "name": "Settings",
+        "path": "img/screenshot-settings.png"
+      }
+    ],
+    "version": "1.0.0",
+    "updated": "2025-02-01"
+  },
+  "includes": [
+    {
+      "type": "page",
+      "name": "Configuration",
+      "path": "/a/mcp-assistant-app",
+      "role": "Viewer",
+      "addToNav": true,
+      "defaultNav": false
+    }
+  ],
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  }
+}
