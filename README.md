@@ -2,11 +2,11 @@
 
 [![Grafana](https://img.shields.io/badge/Grafana-9.0+-orange?logo=grafana)](https://grafana.com)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/kamalsinghbisht/mcp-assistant-app)](https://github.com/kamalsinghbisht/mcp-assistant-app/releases)
+[![GitHub release](https://img.shields.io/github/v/release/kamalsinghbisht/ai-assistant-app)](https://github.com/kamalsinghbisht/ai-assistant-app/releases)
 
 **Universal AI chatbot sidebar for Grafana** that connects to any MCP (Model Context Protocol) server with real-time SSE streaming.
 
-![MCP Assistant Screenshot](src/img/screenshot-sidebar.png)
+![AI Assistant Screenshot](src/img/screenshot-sidebar.png)
 
 ## Features
 
@@ -24,7 +24,7 @@
 ### From Grafana CLI (Coming Soon)
 
 ```bash
-grafana-cli plugins install mcp-assistant-app
+grafana-cli plugins install ai-assistant-app
 ```
 
 ### Manual Installation
@@ -64,23 +64,31 @@ grafana-cli plugins install mcp-assistant-app
     - Hard refresh browser: Ctrl + Shift +
     - You should see the 🤖 blue button (bottom-right corner) in dashboard
     - Click it to open the sidebar!
-## Quick Start
+
+##  Quick Start
 
 1. **Start your MCP server**:
-
+ 
 2. **Open Grafana** and click the **🤖 blue button** in the bottom-right corner
 
-3. **Configure** the MCP server URL in settings (default: `https://localhost:3001`)
+3. **Configure** the MCP server URL in settings (default: `http://localhost:3001`)
 
 4. **Ask questions** in natural language!
 
-## Configuration
+##  Configuration
 
 Click the **⚙️ Settings** button in the sidebar header:
 
 | Setting | Description | Default |
 |---------|-------------|---------|
 | MCP Server URL | URL of your MCP server | `http://localhost:3001` |
+
+### Supported Protocols
+
+| Protocol | Supported |
+|----------|-----------|
+| HTTP | ✅ |
+| HTTPS | ✅ |
 
 ## MCP Server Requirements
 
@@ -129,8 +137,8 @@ data: {"done": true}
 
 ```bash
 # Clone repository
-git clone https://github.com/kamalsinghbisht/mcp-assistant-app.git
-cd mcp-assistant-app
+git clone https://github.com/kamalsinghbisht/ai-assistant-app.git
+cd ai-assistant-app
 
 # Install dependencies
 npm install
@@ -145,7 +153,7 @@ npm run dev
 ### Project Structure
 
 ```
-mcp-assistant-app/
+ai-assistant-app/
 ├── src/
 │   ├── module.ts           # Plugin entry point
 │   ├── plugin.json         # Plugin metadata
@@ -203,7 +211,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
@@ -225,4 +233,3 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ---
 
-Made with ❤️ for the observability community
