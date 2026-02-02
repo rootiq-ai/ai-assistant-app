@@ -211,14 +211,12 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 **Kamal Singh Bisht**
 
-- GitHub: [@kamalsinghbisht](https://github.com/kamalsinghbisht)
-- LinkedIn: [Kamal Singh Bisht](https://linkedin.com/in/kamalsinghbisht)
+- LinkedIn: [Kamal Singh Bisht](https://linkedin.com/in/kmluvce)
 
 ## Acknowledgments
 
 - [Grafana](https://grafana.com) - Amazing observability platform
 - [Model Context Protocol](https://modelcontextprotocol.io) - MCP specification
-- [Anthropic](https://anthropic.com) - Claude AI
 
 ## Related Projects
 
